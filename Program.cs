@@ -32,7 +32,7 @@ namespace ConsoleApp
             var personDal = new TbPersonDal(dbContext);
             var productDal = new TbProductDal(dbContext);
             var productHistoryDal = new TbProductHistoryDal(dbContext);
-            var providerDal = new TbProviderDal(dbContext);
+            //var providerDal = new TbProviderDal(dbContext);
 
 
             Console.WriteLine("Виберіть дію:");
